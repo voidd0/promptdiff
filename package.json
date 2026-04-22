@@ -1,0 +1,59 @@
+{
+  "name": "@v0idd0/promptdiff",
+  "version": "2.0.0",
+  "description": "Compare LLM prompt versions. Word/char/line diff + word-frequency delta + token-impact across 40+ models (GPT-5.4, Claude Opus 4.7, Gemini 3.1 Pro, Llama 4 Scout, Grok 4). Multi-version evolution view. Markdown output for PR comments. Runs locally, no network. Free forever from vøiddo.",
+  "main": "src/differ.js",
+  "bin": {
+    "promptdiff": "./bin/promptdiff.js"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "start": "node bin/promptdiff.js"
+  },
+  "keywords": [
+    "prompt",
+    "prompt-diff",
+    "prompt-engineering",
+    "llm",
+    "ai",
+    "gpt",
+    "gpt-5",
+    "claude",
+    "claude-4",
+    "gemini",
+    "diff",
+    "compare",
+    "version-control",
+    "token-count",
+    "cost-estimator",
+    "word-frequency",
+    "markdown",
+    "cli",
+    "developer-tools",
+    "free",
+    "voiddo"
+  ],
+  "author": "vøiddo <support@voiddo.com> (https://voiddo.com)",
+  "license": "MIT",
+  "homepage": "https://voiddo.com/tools/promptdiff/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidd0/promptdiff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voidd0/promptdiff/issues",
+    "email": "support@voiddo.com"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
