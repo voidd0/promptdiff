@@ -153,6 +153,4 @@ MIT — see [LICENSE](./LICENSE).
 
 ---
 
-**Built by [vøiddo](https://voiddo.com).** We write tools so you do not have to. Enjoy.
-
-[voiddo.com](https://voiddo.com) · [github.com/voidd0](https://github.com/voidd0) · [npmjs.com/org/v0idd0](https://www.npmjs.com/org/v0idd0) · [support@voiddo.com](mailto:support@voiddo.com)
+Built by [vøiddo](https://voiddo.com/) — a small studio shipping AI-flavoured products, free dev tools, Chrome extensions and weird browser games.
