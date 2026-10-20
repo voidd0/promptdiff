@@ -1,7 +1,7 @@
 {
   "name": "@v0idd0/promptdiff",
-  "version": "2.0.2",
-  "description": "Compare LLM prompt versions. Word/char/line diff + word-frequency delta + token-impact across 40+ models (GPT-5.4, Claude Opus 4.7, Gemini 3.1 Pro, Llama 4 Scout, Grok 4). Multi-version evolution view. Markdown output for PR comments. Runs locally, no network. Free forever from vøiddo.",
+  "version": "2.0.4",
+  "description": "Compare versions of an LLM prompt: word, character and line diff, word frequency change, token impact and cost per model. Markdown output for pull requests.",
   "main": "src/differ.js",
   "bin": {
     "promptdiff": "./bin/promptdiff.js"
@@ -15,27 +15,18 @@
     "prompt-diff",
     "prompt-engineering",
     "llm",
-    "ai",
-    "gpt",
-    "gpt-5",
-    "claude",
-    "claude-4",
-    "gemini",
     "diff",
     "compare",
     "version-control",
     "token-count",
     "cost-estimator",
-    "word-frequency",
     "markdown",
     "cli",
-    "developer-tools",
-    "free",
-    "voiddo"
+    "developer-tools"
   ],
   "author": "vøiddo <support@voiddo.com> (https://voiddo.com)",
   "license": "MIT",
-  "homepage": "https://voiddo.com/tools/promptdiff/",
+  "homepage": "https://tools.voiddo.com/promptdiff/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/voidd0/promptdiff.git"
@@ -50,17 +41,12 @@
   "files": [
     "bin/",
     "src/",
-    "LICENSE",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "os": [
-    "darwin",
-    "linux",
-    "win32"
-  ],
   "funding": {
     "type": "individual",
     "url": "https://voiddo.com/contact/"
